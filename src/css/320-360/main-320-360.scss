@@ -1,0 +1,208 @@
+
+.header{
+  background:  #F8FBFF;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  height: 170px;
+  &_elems {
+    //height: 49px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    &-pic{
+      img {
+        width: 49px;
+      }
+    }
+    &-text {
+      align-items: center;
+      display: flex;
+      color: #4BCB38;
+      font-family: "Roboto", "-apple-system", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    &-btn {
+      button {
+        height: 49px;
+        width: 49px;
+        padding: 0;
+        background: white;
+        border: none;
+        border-radius: 40%;
+      }
+    }
+  }
+  &_input {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    &-input {
+      width: 85%;
+      height: 50px;
+      border-radius: 15px;
+      border: 2px solid #5B5B5B;
+      padding: 0 34%;
+      font-family: 'Roboto', sans-serif;
+
+    }
+  }
+  &_category{
+    background:  #F8FBFF;
+    margin-top: 7px;
+    p {
+      color: #5B5B5B;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      width: 85%;
+
+
+      margin: 0 7% 1px;
+    }
+    &_buttons {
+      margin-top: 7px;
+      display: flex;
+      justify-content: space-evenly;
+      height: 40px;
+      button {
+        border-radius: 15px;
+        background: white;
+        border: none;
+        color: #C4C4C4;
+        height: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        width: 63px;
+
+      }
+      button:focus {
+        vertical-align: middle;
+        color: #4BCB38;
+        background: rgba(66, 200, 52, 0.26);
+      }
+    }
+  }
+
+
+}
+.content {
+
+  margin-top: 227px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #F8FBFF;
+
+
+
+}
+.my-card {
+
+
+}
+  .card__actions {
+    background: #4BCB38;
+    padding: 1px;
+    height: 45px
+  }
+  .btnC {
+    color: white;
+  }
+.foods {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  .my-card{
+    width: 293px;
+    margin-top: 30px;
+  }
+
+
+}
+.productItemDiv {
+  display: flex;
+  justify-content: center;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background: #F8FBFF;
+  height: 40px;
+
+  &_home{
+    button{
+      background: #F8FBFF;
+      border: none;
+
+    }
+  }
+  &_liked {
+    button{
+      background: #F8FBFF;
+      border: none;
+    }
+
+  }
+  &_main{
+
+    &-btn {
+      border-radius: 50%;
+      background: #F8FBFF;
+      border: none;
+      width: 42px;
+      height: 40px;
+      img {
+        width: 31px;
+      }
+    }
+
+  }
+  &_time {
+    button{
+      background: #F8FBFF;
+      border: none;
+    }
+  }
+  &_notification {
+    button{
+      background: #F8FBFF;
+      border: none;
+    }
+  }
+}
+.toDetail {
+  text-decoration: none;
+}
+.countFirst {
+  border-radius: 50%;
+  background: #dd2c00;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  &-sp{
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+    left: auto;
+    right: auto;
+    top: auto;
+
+  }
+}

@@ -1,0 +1,72 @@
+@media(min-width: 411px) and (max-width: 428px) {
+  .main {
+    &_text {
+      &-first {
+        display: flex;
+        justify-content: center;
+
+        h5 {
+          font-family: 'DM Sans', sans-serif;
+          font-weight: bold;
+        }
+      }
+
+      &-second {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+          text-align: center;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+
+        }
+      }
+    }
+
+    &_inputs {
+      margin-top: 50px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+
+      &-text {
+        p {
+          margin-left: 23px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+        }
+
+        input {
+          padding: 0 23px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+          width: 100%;
+          height: 50px;
+          border-radius: 15px;
+          border: 1px solid #DFE2E5;
+        }
+      }
+    }
+
+  }
+  .signGoogle {
+    margin-top: 90px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin-left: 10px;
+      font-size: 14px;
+      font-family: "Roboto", "-apple-system", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 24px;
+      color: #1D1D1D;
+    }
+
+    img {
+      width: 24px;
+    }
+  }
+}

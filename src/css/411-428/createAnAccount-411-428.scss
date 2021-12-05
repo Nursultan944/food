@@ -1,0 +1,93 @@
+@media(min-width: 411px) and (max-width: 428px) {
+  .main {
+    &_text {
+      &-first1 {
+        display: flex;
+        justify-content: center;
+        height: 73px;
+
+        .h51 {
+          font-family: 'DM Sans', sans-serif;
+          font-weight: bold;
+          line-height: 28px;
+        }
+      }
+
+      &-second {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+          text-align: center;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+
+        }
+      }
+    }
+
+    &_inputs {
+      margin-top: 20px;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+
+      &-text {
+        p{
+          font-size: 14px;
+        }
+        .p1 {
+          margin-bottom: 10px;
+          margin-left: 23px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+
+        }
+
+        input {
+          padding: 0 23px;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 14px;
+          width: 100%;
+          height: 50px;
+          border-radius: 15px;
+          border: 1px solid #DFE2E5;
+        }
+      }
+    }
+
+  }
+  .signGoogle1 {
+    margin-top: 40px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+
+    a {
+      margin-left: 10px;
+      font-size: 12px;
+      font-family: "Roboto", "-apple-system", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 24px;
+      color: #1D1D1D;
+    }
+
+    img {
+      width: 24px;
+    }
+  }
+  .div-nextSlide1{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-nextSlide1 {
+    background: linear-gradient(94.59deg, #84DF51 2.89%, #46CA36 45.9%, #A6EB61 89.81%);
+    border-radius: 30px;
+    width: 270px;
+    border: none;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,56 @@
+@media(min-width: 320px) and (max-width: 360px) {
+  .basket_panel {
+    //background: #4BCB38;
+
+    height: 40px;
+    padding: 0px;
+    margin-left: 5px;
+
+  }
+  .btnB {
+    color: white;
+    background: #4BCB38;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+
+  }
+  button.btnB:active {
+    color: white;
+    background: #84fa73;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: none;
+  }
+  .countDiv {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .basketInfo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+  }
+  .del {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 30px;
+    margin-left: 25px;
+
+  }
+
+  .delImg {
+    width: 100%;
+
+  }
+  .totalPrice {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 25px;
+  }
+}

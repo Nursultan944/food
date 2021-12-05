@@ -1,0 +1,58 @@
+@media(min-width: 360px) and (max-width: 411px) {
+  .contentOrderConfirm {
+    margin-top: 25px;
+    margin-bottom: 110px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_firstPic{
+      display: flex;
+      justify-content: center;
+      img {
+
+        width: 40%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+    &_firstTitle {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 24px;
+      color: #3D3D3D;
+      margin-top: -5px;
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    &_secondTitle {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-weight: normal;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: #3D3D3D;
+      margin-top: 5px;
+      width: 85%;
+      margin-left: 45px;
+      margin-right: auto;
+    }
+    &_btn {
+      margin-top: 30px;
+    }
+  }
+  ul{
+    text-align: start;
+    width: 80%;
+    li{
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}
